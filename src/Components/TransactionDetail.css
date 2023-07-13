@@ -1,0 +1,64 @@
+.transaction-detail {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 190px; /* Adjust the value as needed */
+  }
+  
+  .transaction-detail h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-field {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-label {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 100px;
+  }
+  
+  .transaction-action {
+    margin-top: 20px;
+  }
+  
+  .edit-link,
+  .back-link,
+  .delete-button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .edit-link:active,
+  .back-link:active,
+  .delete-button:active {
+    transform: translateY(1px);
+  }
+  
+  .edit-link:hover,
+  .back-link:hover,
+  .delete-button:hover {
+    opacity: 0.9;
+  }
+  
+  .edit-link:focus,
+  .back-link:focus,
+  .delete-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
